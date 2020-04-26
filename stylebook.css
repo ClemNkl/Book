@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .container 
+  {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container 
+  {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container 
+  {
+    width: 1170px;
+  }
+}
+
+[class*="col-"], footer {
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+.carousel-inner
+{
+	height:200px;
+}
+
+.carousel-indicators
+{
+	background-color:black;
+}
+
+h1
+{
+	font-family: 'Luckiest Guy', cursive;
+}
+
+p
+{
+	font-family: 'Raleway', sans-serif;
+}

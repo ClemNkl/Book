@@ -1,0 +1,78 @@
+<html>
+<head>
+	<meta charset="utf-8" /> 
+	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style/stylebook.css" />
+	<link rel="stylesheet" href="style/bootstrap.css">   
+    <title>Portofolio Clémence Nakul</title> 
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-2">
+			<p>Clémence Nakul<br/>
+			Portofolio 2020</p>
+			</div>
+			<nav class="col-md-offset-4 col-md-6">
+			<a href="#accueil">ACCUEIL</a> /
+			<a href="#apropos">A PROPOS</a> /
+			<a href="#realisations">REALISATIONS</a> /
+			<a href="#loisirs">LOISIRS</a> /
+			<a href="#contact">CONTACT</a>
+			</nav>
+		</header>
+		<section class="row">
+			<div class="col-md-12">
+			<div id="carousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+				<li data-target="#carousel" data-slide-to="3"></li>
+				<li data-target="#carousel" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<a href="#accueil">
+						<h1>Clémence Nakul</h1>
+						<p>Portofolio 2020</p>
+					</a>
+				</div>
+				<div class="item"> 
+					<a href="#apropos">
+						<h1>A propos</h1>
+						<p>Afin d'en savoir plus sur moi ;)</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#realisations">
+						<h1>Réalisations</h1>
+						<p>Retrouvez mes dessins par ici!</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#loisirs">
+						<h1>Loisirs</h1>
+						<p>Quelques photos de mes loisirs artistiques</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#contact">
+						<h1>Contact</h1>
+						<p>Contactez moi</p>
+					</a>
+				</div>
+			</div>
+			</div>
+			</div>
+		</section>
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $('.carousel').carousel({ interval: 3000 });
+  });
+</script>
+</body>
+</html>
