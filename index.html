@@ -1,77 +1,82 @@
 <html>
 <head>
 	<meta charset="utf-8" /> 
-	<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="stylebook.css" />
-	<link rel="stylesheet" href="bootstrap.css">   
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Raleway&display=swap" rel="stylesheet">   
+	<link rel="stylesheet" href="bootstrap.css"> 
+	<link rel="stylesheet" href="stylebook.css" />  
     <title>Portofolio Clémence Nakul</title> 
 </head>
-<body>
+<body id="index">
 	<div class="container">
 		<header class="row">
-			<div class="col-md-2">
-			<p>Clémence Nakul<br/>
-			Portofolio 2020</p>
-			</div>
-			<nav class="col-md-offset-4 col-md-6">
-			<a href="#accueil">ACCUEIL</a> /
-			<a href="#apropos">A PROPOS</a> /
-			<a href="#realisations">REALISATIONS</a> /
-			<a href="#loisirs">LOISIRS</a> /
-			<a href="#contact">CONTACT</a>
+			<nav class="col-md-offset-6 col-md-6">
+			<a href="index.html">ACCUEIL</a> /
+			<a href="page.html">A PROPOS</a> /
+			<a href="page.html#realisations">REALISATIONS</a> /
+			<a href="page.html#loisirs">LOISIRS</a> /
+			<a href="page.html#contact">CONTACT</a>
 			</nav>
 		</header>
-		<section class="row">
-			<div class="col-md-12">
+		<section>
+			<div class="row">
+			<div class="col-md-12 accueil">
 			<div id="carousel" class="carousel slide">
 			<ol class="carousel-indicators">
-				<li data-target="#carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel" data-slide-to="1"></li>
-				<li data-target="#carousel" data-slide-to="2"></li>
-				<li data-target="#carousel" data-slide-to="3"></li>
-				<li data-target="#carousel" data-slide-to="4"></li>
+				<li data-target="#carousel" data-slide-to="0" class="active" id="prems"></li>
+				<li data-target="#carousel" data-slide-to="1" id="deus"></li>
+				<li data-target="#carousel" data-slide-to="2" id="ters"></li>
+				<li data-target="#carousel" data-slide-to="3" id="qua"></li>
+				<li data-target="#carousel" data-slide-to="4" id="cinq"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<a href="#accueil">
-						<h1>Clémence Nakul</h1>
-						<p>Portofolio 2020</p>
-					</a>
+						<h1>Bonjour, moi c'est Clémence !</h1>
+						<p>Bienvenue sur mon portfolio !<br/>
+						Ici, vous apprendrez à me connaître ainsi que mes différentes compétences dans le domaine de l'art 
+						et du développement web.</p>
 				</div>
 				<div class="item"> 
-					<a href="#apropos">
+					<a class="lienblanc" href="page.html#apropos">
 						<h1>A propos</h1>
-						<p>Afin d'en savoir plus sur moi ;)</p>
+						Venez découvrir mon parcours scolaire ainsi que les compétences que j'ai pu acquérir avec mes différentes formations.
 					</a>
 				</div>
 				<div class="item">
-					<a href="#realisations">
+					<a class="lienblanc" href="page.html#realisations">
 						<h1>Réalisations</h1>
-						<p>Retrouvez mes dessins par ici!</p>
+						Le vif du sujet: mes réalisations!<br/>
+						Voici la crème de la crème de mes dessins, qu'ils soient fait main ou sur ordinateur.
 					</a>
 				</div>
 				<div class="item">
-					<a href="#loisirs">
+					<a class="lienblanc" href="page.html#loisirs">
 						<h1>Loisirs</h1>
-						<p>Quelques photos de mes loisirs artistiques</p>
+						Pourquoi se limiter? Afin d'encore mieux me connaître, je pense qu'il faut aussi passer par mes loisirs artistiques/créatifs.
 					</a>
 				</div>
 				<div class="item">
-					<a href="#contact">
+					<a class="lienblanc" href="page.html#contact">
 						<h1>Contact</h1>
-						<p>Contactez moi</p>
+						Retrouvez toutes mes coordonnées à cet endroit ! 
 					</a>
 				</div>
+			</div>
 			</div>
 			</div>
 			</div>
 		</section>
+		<footer class="row">
+		<div class="col-md-12">
+		<p class="pied">Copyright Clémence Nakul - 2020</p>
+		<a class="pied" href="">Portfolio (2020) version pdf</a>
+		</div>
+		</footer>
 	</div>
 <script src="jquery.js"></script>
 <script src="bootstrap.min.js"></script>
 <script>
   $(function () {
-    $('.carousel').carousel({ interval: 3000 });
+    $('.carousel').carousel({ interval: 5000 });
   });
 </script>
 </body>
