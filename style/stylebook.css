@@ -191,7 +191,7 @@ label
 
 @media screen and (max-width: 800px)
 {
-body
+header, footer
 {
 	font-size: 2em;
 }
